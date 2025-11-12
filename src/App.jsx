@@ -92,7 +92,7 @@ export default function App() {
               </Badge>
               <Badge>
                 <Clock className="h-4 w-4" />
-                <span><500ms analysis</span>
+                <span>{"<500ms analysis"}</span>
               </Badge>
               <Badge>
                 <Globe className="h-4 w-4" />
