@@ -1,0 +1,57 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 220 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.28.39:3000/
+8:17:34 PM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:95:23: ERROR: Expected identifier but found "5"
+8:17:36 PM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:95:23: ERROR: Expected identifier but found "5"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:95:23
+  
+  Expected identifier but found "5"
+  93 |                <Badge>
+  94 |                  <Clock className="h-4 w-4" />
+  95 |                  <span><500ms analysis</span>
+     |                         ^
+  96 |                </Badge>
+  97 |                <Badge>
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+8:17:58 PM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:95:23: ERROR: Expected identifier but found "5"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:95:23
+  
+  Expected identifier but found "5"
+  93 |                <Badge>
+  94 |                  <Clock className="h-4 w-4" />
+  95 |                  <span><500ms analysis</span>
+     |                         ^
+  96 |                </Badge>
+  97 |                <Badge>
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
